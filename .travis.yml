@@ -1,5 +1,8 @@
 language: c
 sudo: required
+arch: 
+    - amd64
+    - arm64
 install:
   - |
     if [[ "${TRAVIS_OS_NAME}" == "linux" ]]; then
